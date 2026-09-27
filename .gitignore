@@ -1,0 +1,25 @@
+# ── Real financial data — NEVER commit ────────────────────────
+# Statements, ledger exports, custodian files, anything you paste in to reconcile
+*.csv
+*.xlsx
+*.xls
+*.pdf
+mydata/
+scratch/
+
+# Generated, data-bearing outputs
+ReconReport_*
+Investigation_*
+Breaks_*
+Finding_*
+
+# ── But DO keep the shipped examples + bundled tool ───────────
+!examples/**
+!tools/Reconciliation_Checklist_Tool.xlsx
+
+# ── OS / editor cruft ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
